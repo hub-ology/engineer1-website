@@ -10,3 +10,5 @@ for conducting your routine duties when grid power is impacted by storms or othe
 engineer1 believes a basic understanding of power (specifically renewable energy) is so very
 important to engineering success - even for folks that prefer to focus only on software.
 
+We use the [solarshed](https://github.com/corbinbs/solarshed) project to help teach folks about
+off grid solar energy. ☀️🔋🔌💻
