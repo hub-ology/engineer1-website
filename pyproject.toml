@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "engineer1-website"
+version = "0.1.0"
+description = "The engineer1.org web site"
+authors = ["hub-ology.org"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs = "^1.1.2"
+mkdocs-material = "^6.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

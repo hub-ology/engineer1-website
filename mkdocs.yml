@@ -1,0 +1,41 @@
+site_name: engineer1
+copyright: hub-ology 2020
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/engineer1org
+      name: engineer1 on Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/hub-ology
+      name: hub-ology on github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+      separator: "-"
+      toc_depth: 3
+
+nav:
+  - Home: 'index.md'
+  - 'Topics':
+      - 'Allyship': 'allyship.md'
+      - 'Architecture': 'architecture.md'
+      - 'Finance': 'finance.md'
+      - 'Intellectual Property': 'intellectual-property.md'
+      - 'Remote Communication': 'remote-communication.md'
+      - 'Renewable Energy': 'renewable-energy.md'
+  - About:
+      - 'License': 'license.md'
+  - Donate: 'donate.md'
+
+theme:
+  logo: images/engineer1-symbol.svg
+  name: material
+  palette:
+      accent: deep purple
+      primary: white
+
+      
