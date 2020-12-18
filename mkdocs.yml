@@ -23,11 +23,13 @@ nav:
   - 'Topics':
       - 'Allyship': 'allyship.md'
       - 'Architecture': 'architecture.md'
+      - 'Communication': 'communication.md'
       - 'Finance': 'finance.md'
-      - 'Intellectual Property': 'intellectual-property.md'
-      - 'Remote Communication': 'remote-communication.md'
+      - 'Intellectual Property': 'intellectual-property.md'      
       - 'Renewable Energy': 'renewable-energy.md'
   - About:
+      - 'engineer1 lab': 'engineer1-lab.md'  
+      - 'Contact': 'contact.md'      
       - 'License': 'license.md'
   - Donate: 'donate.md'
 
