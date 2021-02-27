@@ -1,0 +1,29 @@
+# This workflow will install Python dependencies and generate the static site using poetry and mkdocs
+
+name: Engineer1 build and package 
+
+on:
+  workflow_dispatch
+  #push:
+  #  branches: [ main ]
+  #pull_request:
+  #  branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: |
+        pip install poetry
+        poetry install
+    - name: Generate site
+      run: |
+        poetry run mkdocs build
