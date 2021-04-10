@@ -2,6 +2,7 @@
 
 ![](images/engineer1-logo.svg)
 
+Testing automation!!
 
 engineer1 is an education supplement for folks interested in computer engineering.
 
