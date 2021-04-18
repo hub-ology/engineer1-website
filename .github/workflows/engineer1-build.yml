@@ -3,7 +3,7 @@
 name: Engineer1 build and package 
 
 on:
-  #workflow_dispatch
+  # workflow_dispatch
   push:
     branches: [ main, staging ]
 
@@ -33,10 +33,10 @@ jobs:
         path: site
         retention-days: 1
 
-  #it seems wasteful to need to perform the deploy operation in this manner but the environment name in
-  #github actions is in beta and is only available at the job level thus the two distinct jobs below. The alternative would
-  #be to use a naming convention for secrets and access with a pattern like 'secrets.{0}.AWS_ACCESS_KEY_ID' where {0} would be 
-  #replaced by the branch name or an environment variable based on the branch 
+  # it seems wasteful to need to perform the deploy operation in this manner but the environment name in
+  # github actions is in beta and is only available at the job level thus the two distinct jobs below. The alternative would
+  # be to use a naming convention for secrets and access with a pattern like 'secrets.{0}.AWS_ACCESS_KEY_ID' where {0} would be 
+  # replaced by the branch name or an environment variable based on the branch 
   deploy_stage:
     if: endsWith(github.ref, '/staging')
     runs-on: ubuntu-latest
