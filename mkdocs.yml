@@ -1,5 +1,5 @@
-site_name: engineer1
-copyright: hub-ology 2021
+site_name: ENGINEER1
+copyright: hub-ology 2020-2021
 
 extra:
   social:
@@ -20,18 +20,21 @@ markdown_extensions:
 
 nav:
   - Home: 'index.md'
+  - Contact: 'contact.md'
+  - Donate: 'donate.md'
+  - 'Hardware Kits': 'hardware-kits.md'
+  - 'Labs': 'labs.md'
+  - 'Sessions': 'sessions.md'  
   - 'Topics':
       - 'Allyship': 'allyship.md'
       - 'Architecture': 'architecture.md'
       - 'Communication': 'communication.md'
       - 'Finance': 'finance.md'
+      - 'Infrastructure': 'infrastructure.md'
       - 'Intellectual Property': 'intellectual-property.md'      
-      - 'Renewable Energy': 'renewable-energy.md'
-  - About:
-      - 'engineer1 lab': 'engineer1-lab.md'  
-      - 'Contact': 'contact.md'      
-      - 'License': 'license.md'
-  - Donate: 'donate.md'
+      - 'Renewable Energy': 'renewable-energy.md'  
+  - 'License': 'license.md'
+  
 
 theme:
   logo: images/engineer1-symbol.svg

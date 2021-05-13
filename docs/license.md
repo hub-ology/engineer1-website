@@ -1,8 +1,8 @@
-All engineer1 materials are available under the [MIT License](https://choosealicense.com/licenses/mit/)
+All ENGINEER1 materials are available under the [MIT License](https://choosealicense.com/licenses/mit/)
 
 MIT License
 
-Copyright (c) 2021 [hub-ology](https://hub-ology.org)
+Copyright (c) 2020-2021 [hub-ology](https://hub-ology.org)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
