@@ -7,5 +7,5 @@ and services without real allyship and highly diverse teams.
 You cannot build a world class engineering team without ensuring that all team
 members feel welcomed and feel safe.
 
-engineer1 focuses on putting real allyship first before anything else.
+ENGINEER1 focuses on putting real allyship first before anything else.
 
