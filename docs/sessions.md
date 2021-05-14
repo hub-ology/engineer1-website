@@ -9,3 +9,7 @@ live events.  Sessions may also be completely virtual.
 
 
 Interested in participating in an ENGINEER1 Session as a guest speaker?  [Holler at us](/contact/)!
+
+
+- Session 0: [ENGINEER1 Introduction](https://www.youtube.com/channel/UCjYPSDgMUIWjJWDYGXyQRWw)
+- Session 1: TBA
